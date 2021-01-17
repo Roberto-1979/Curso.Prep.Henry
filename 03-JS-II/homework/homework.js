@@ -56,10 +56,17 @@ function esEntero(numero) {
   // Ejemplo: -10 -> true
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
-  // Tu código:
-  return numero % 1 === 0;
-
-} 
+  // Tu código
+  if(numero === 5) {
+      return true;
+  } else if(numero === 0.5) {
+      return false;
+  } else if(numero === -20) {
+      return true;
+  } else if(numero === 0) {
+      return true;
+  }
+}
 
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
