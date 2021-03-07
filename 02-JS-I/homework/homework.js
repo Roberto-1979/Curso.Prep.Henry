@@ -60,10 +60,11 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x === y) {
-    return true;
-  } else {
-    return false;
-  }
+    return true
+     }
+      
+     return false
+     
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -71,10 +72,9 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (str1.length === str2.length) {
-    return true;
-  } else {
-    return false;
-  }
+    return true
+  } 
+    return false
 }
  
 function menosQueNoventa(num) {
@@ -83,20 +83,19 @@ function menosQueNoventa(num) {
   // Tu código: 
   if (num < 90) {
     return true;
-  } else {
+  } 
     return false;
   }
-}
+
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num > 50) {
-    return true;
-  } else {
-    return false;
-  }
+    return true
+  } 
+    return false
 }
 
 function obtenerResto(x, y) {
@@ -111,39 +110,38 @@ function esPar(num) {
   // Tu código:
   if (num % 2 === 0) {
     return true; 
-  } else {
+  } 
     return false;
   }
-}
+
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 === 1) {
-    return true;
-  } else {
-    return false;
-  }
+    return true
+  } 
+    return false
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return num * num;
+  return num * num
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return num * num * num;
+  return num * num * num
 }
 
-function elevar(num, exponent) {
+function elevar(numero, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return Math.pow(num, exponent);
+  return Math.pow(numero, exponent);
 }
 
 function redondearNumero(num) {
