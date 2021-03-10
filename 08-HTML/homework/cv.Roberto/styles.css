@@ -1,0 +1,76 @@
+
+            h3 {
+                color: red;       
+            }
+
+            h4 {
+              color: blue;
+            }
+
+            div {
+                width: 850px;
+                height: 400px;
+                background-color: rgb(140, 182, 216);
+                border-style: double;
+                border-radius: 15px;
+                border-color: blue;
+                padding: 15px;
+                margin: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                font-size: 25px;
+            }
+
+            .caja4 {
+               
+                position: absolute;
+                top: 10px;
+                bottom: 0px;
+                right: 0px;
+                left: 0 px
+                 
+            }
+
+            .caja5 {
+                position: absolute;
+                top: 460px;
+                bottom: 0px;
+                right: 0px;
+                left: 0 px
+                
+            }
+
+            .caja6 {
+                position: absolute;
+                top: 900px;
+                bottom: 0px;
+                right: 0px;
+                left: 0 px  
+            }
+
+            .cajas7 {
+                position: absolute;
+                top: 1340px;
+                bottom: 10px;
+                right: 0px;
+                left: 0 px  
+            }
+
+            img {
+                width: 290px;
+                height: 290px;
+                margin-top: 15px;
+            }
+
+            #foto{
+             width: 380px;
+              height: 450px;
+              background: blue;
+              border-bottom-left-radius: 30px;   
+              border-bottom-right-radius: 30px; 
+              font-size: 30px;
+              color: white;
+              margin-left: 200px;
+            } 

@@ -1,20 +1,66 @@
-h1 {
-    color: darkorange;
+
+  
+  
+  h1 {
+    color: rgb(223, 147, 35);
+    display: block;
+    text-align: center;
   }
+
   img {
     width: 400px;
     height: 270px;
   }
+  
   #thirdDiv {
     height: 600px;
     width: 500px;
-    background-color:darkred;
-  }
+    background-color:rgb(218, 13, 13);
+    padding: 50px;
+    border: 10px solid rgb(14, 14, 190);
+    display:table; margin:0 auto; 
+     margin-left: auto;
+    margin-right: auto;  
+    }
   #spanId {
     font-size: 18px;
     margin: 50px;
+
   }
-  #thirdDiv {
+
+  body {
+      margin: 0;
+      padding: 0; 
+      
+    }
+  
+  .fondo {
+    background-image: url('../homework/img/food-366875_1920.jpg');
+    width: 100%;
+    height: 100%vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .divClass{
+  text-align: center;
+  } 
+ 
+  .box {
+    width: 350px;
+    position: fixed;
+    border: 10px solid rgb(14, 14, 190);
+    font-size: 30px;
+    left: 3px;
+    color: aqua;
+    bottom: 50px;
+  }
+
+  /*.image1 {
+    position: fixed;
+    width: 100px;
+    height: 100;
+    background-color:rgb(218, 13, 13);
     padding: 50px;
-    border: 10px solid blue;
+    border: 10px solid rgb(14, 14, 190);
+    right: 50px;
   }
