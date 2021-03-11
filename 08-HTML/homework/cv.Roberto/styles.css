@@ -8,7 +8,7 @@
             }
 
             div {
-                width: 850px;
+                width: 600px;
                 height: 400px;
                 background-color: rgb(140, 182, 216);
                 border-style: double;
@@ -20,7 +20,7 @@
                 margin-bottom: 20px;
                 margin-left: 20px;
                 margin-right: 20px;
-                font-size: 25px;
+                font-size: 22px;
             }
 
             .caja4 {
@@ -67,10 +67,10 @@
             #foto{
              width: 380px;
               height: 450px;
-              background: blue;
+              background: rgb(140, 182, 216);
               border-bottom-left-radius: 30px;   
               border-bottom-right-radius: 30px; 
               font-size: 30px;
-              color: white;
-              margin-left: 200px;
+              color: rgb(39, 8, 216);
+              margin-left: 150px;  ;
             } 
